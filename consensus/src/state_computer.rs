@@ -157,7 +157,7 @@ impl StateComputer for ExecutionProxy {
             "sync_to",
             self.state_sync_notifier.sync_to_target(target).await
         );
-        // Similarily, after the state synchronization, we have to reset the cache
+        // Similarly, after the state synchronization, we have to reset the cache
         // of BlockExecutor to guarantee the latest committed state is up to date.
         self.execution_correctness_client.reset()?;
 

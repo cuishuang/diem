@@ -11,7 +11,7 @@ use thiserror::Error;
 /// stored on the stack.
 ///
 /// Using `ShortHexStr` instead of `hex::encode` is about 3-4x faster on a recent
-/// MBP 2019 (~48 ns/iter vs ~170 ns/iter) in an artifical micro benchmark.
+/// MBP 2019 (~48 ns/iter vs ~170 ns/iter) in an artificial micro benchmark.
 #[derive(Ord, PartialOrd, Eq, PartialEq, Hash, Clone, Copy)]
 pub struct ShortHexStr([u8; ShortHexStr::LENGTH]);
 

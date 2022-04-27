@@ -311,7 +311,7 @@ impl Transactions {
 
     // This function looks for the transaction by hash in database and then mempool,
     // because the period a transaction stay in the mempool is likely short.
-    // Although the mempool get transation is async, but looking up txn in database is a sync call,
+    // Although the mempool get translation is async, but looking up txn in database is a sync call,
     // thus we keep it simple and call them in sequence.
     async fn get_by_hash(&self, hash: diem_crypto::HashValue) -> Result<Option<TransactionData>> {
         let from_db = self

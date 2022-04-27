@@ -22,7 +22,7 @@ Custodial wallet services like holding Diem Coins for customers, exchanging one 
 <br/>The functions described in this document may require the service provider to be licensed in the jurisdictions in which it operates and, to operate on the Diem Payment Network, it will need to be a Regulated VASP reviewed and onboarded by Diem Networks.
 </BlockQuote>
 
-## Prerequisities
+## Prerequisites
 
 Before you get started with the Reference Wallet, get familiar with how [transactions are sent and received on the Diem Blockchain](/docs/transactions/basics-life-of-txn).
 

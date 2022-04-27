@@ -43,7 +43,7 @@ Each individual instance, OW or OP, should have access to a secure storage solut
 
 `diem-genesis-tool` offers several facilities:
 
-* Simplified configuration management via a config file that can store frequently reused paramters including validator and shared storage.
+* Simplified configuration management via a config file that can store frequently reused parameters including validator and shared storage.
 * Retrieving and submitting OW, OP, and validator configuration -- this is from a local secure storage to a remote secure storage -- leveraging the identity tool.
 * Converting a genesis configuration and a secure storage into a genesis.blob / genesis waypoint.
 

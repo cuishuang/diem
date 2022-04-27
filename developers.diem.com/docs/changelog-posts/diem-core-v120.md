@@ -107,7 +107,7 @@ Feel free to post your questions in this [discussion thread](https://developers.
 
 - [State Sync] Fix potential storage race condition with consensus. [\#7365](https://github.com/diem/diem/pull/7365)
 - [State Sync] Make inter-component communication timeouts configurable. [\#7657](https://github.com/diem/diem/pull/7657)
-- [State Sync] Remove unneccessary panics to avoid DOS attacks. [\#7778](https://github.com/diem/diem/pull/7778)
+- [State Sync] Remove unnecessary panics to avoid DOS attacks. [\#7778](https://github.com/diem/diem/pull/7778)
 - [State Sync] Small cleanups, renames and refactors. [\#7017](https://github.com/diem/diem/pull/7017)
 - [State Sync] Update state sync to prioritize preferred peers. [\#7902](https://github.com/diem/diem/pull/7902)
 - [State Sync] Perform basic chunk request verification before processing. [\#7520](https://github.com/diem/diem/pull/7520)

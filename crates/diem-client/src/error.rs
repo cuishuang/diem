@@ -133,10 +133,10 @@ impl Error {
         Self::new(Kind::Request, Some(e))
     }
 
-    pub(crate) fn chain_id(expected: u8, recieved: u8) -> Self {
+    pub(crate) fn chain_id(expected: u8, received: u8) -> Self {
         Self::new(
             Kind::ChainId,
-            Some(format!("expected: {} recieved: {}", expected, recieved)),
+            Some(format!("expected: {} received: {}", expected, received)),
         )
     }
 

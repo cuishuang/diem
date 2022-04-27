@@ -7,7 +7,7 @@ use serde::{Deserialize, Serialize};
 #[derive(Clone, Debug, Deserialize, PartialEq, Serialize)]
 #[serde(default)]
 pub struct LoggerConfig {
-    // channel size for the asychronous channel for node logging.
+    // channel size for the asynchronous channel for node logging.
     pub chan_size: usize,
     // Use async logging
     pub is_async: bool,

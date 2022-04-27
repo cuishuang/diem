@@ -313,7 +313,7 @@ fn test_preferred_block_rule(safety_rules: &Callback) {
 
 /// Verify first that we can successfully sign a timeout on the correct conditions, then ensure
 /// that poorly set last_voted_rounds both historical and in the future fail as well as
-/// synchronization issues on preferred round are correct. Effectivelly ensure that equivocation is
+/// synchronization issues on preferred round are correct. Effectively ensure that equivocation is
 /// impossible for signing timeouts.
 fn test_sign_timeout(safety_rules: &Callback) {
     let (mut safety_rules, signer, key) = safety_rules();
@@ -972,7 +972,7 @@ fn test_2chain_timeout(constructor: &Callback) {
     ));
 }
 
-/// Test that we can succesfully sign a valid commit vote
+/// Test that we can successfully sign a valid commit vote
 fn test_sign_commit_vote(constructor: &Callback) {
     // we construct a chain of proposals
     // genesis -- a1 -- a2 -- a3

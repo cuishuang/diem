@@ -15,7 +15,7 @@ pub struct LinkedItem<T: Hashable> {
 
 pub type Cursor = Option<HashValue>;
 
-/// Buffer implementes an ordered dictionary
+/// Buffer implements an ordered dictionary
 /// It supports push_back, pop_front, and lookup by HashValue
 pub struct Buffer<T: Hashable> {
     map: HashMap<HashValue, LinkedItem<T>>,

@@ -36,7 +36,7 @@ He has been working on anonymous communications, privacy enhancing technologies 
 
 His theoretical contributions to the Privacy Technologies field include the established information theoretic and other probabilistic metrics for anonymity and pioneering the study of statistical attacks against anonymity systems. On the practical side he is one of the lead designers of the anonymous mail system Mixminion, as well as Minx, Sphinx, Drac, Hornet and Loopix; he has worked on the traffic analysis of deployed protocols such as Tor.
 
-His current research interests focus around secure communications, high-integirty systems to support privacy, smart grid privacy, peer-to-peer and social network security, as well as the application of machine learning techniques to security problems. He has published over 90 peer-reviewed scientific papers on these topics in international conferences and journals.
+His current research interests focus around secure communications, high-integrity systems to support privacy, smart grid privacy, peer-to-peer and social network security, as well as the application of machine learning techniques to security problems. He has published over 90 peer-reviewed scientific papers on these topics in international conferences and journals.
 
 He was the co-program chair of ACM Computer and Communications Security Conference in 2011 and 2012, IFCA Financial Cryptography and Data Security in 2011, the Privacy Enhancing Technologies Workshop in 2005 and 2006. He sits on the PET Symposium board and previously the ACM CCS Steering committee and he regularly serves in program committees of leading conferences in the field of privacy and security. He is a fellow of the British Computing Society since 2014.
 

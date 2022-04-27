@@ -150,7 +150,7 @@ pub fn benchmark(c: &mut Criterion) {
 
     let enable_vault = if storage.available().is_err() {
         println!(
-            "Vault ({}) is not availble, experiment will not be launched",
+            "Vault ({}) is not available, experiment will not be launched",
             VAULT_HOST
         );
         false
